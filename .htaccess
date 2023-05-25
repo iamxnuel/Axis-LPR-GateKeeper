@@ -1,0 +1,9 @@
+<FilesMatch "\.(?:json)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(?:log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
